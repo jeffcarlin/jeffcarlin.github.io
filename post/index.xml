@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jeff Carlin</title>
+    <link>http://jeffcarlin.github.io/post/</link>
+    <description>Recent content in Posts on Jeff Carlin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://jeffcarlin.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Studying the outer Milky Way halo with distant RR Lyrae variable stars</title>
+      <link>http://jeffcarlin.github.io/post/dist_rrl/</link>
+      <pubDate>Sat, 13 Oct 2018 12:34:07 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/post/dist_rrl/</guid>
+      <description>Hi, folks! In this, the first blog post on my site, I&amp;rsquo;ll explain a bit about one of my research projects that I&amp;rsquo;m especially excited about lately. I&amp;rsquo;ll aim to keep it at a level that is understandable for &amp;ldquo;non-experts,&amp;rdquo; but inevitably there will be some astro jargon that creeps in&amp;hellip; -Jeff
+The sparsely-populated outermost regions of our Milky Way galaxy are poorly studied. In part, this is because stars of a given type become fainter the more distant they are from us &amp;ndash; think about a flashlight: if I stand a few feet away from you, it will look pretty bright (you could read a book by its light), while if I&amp;rsquo;m a block away, it will just look like a small point of light.</description>
+    </item>
+    
+  </channel>
+</rss>

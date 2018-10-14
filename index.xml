@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeff Carlin on Jeff Carlin</title>
+    <link>http://jeffcarlin.github.io/</link>
+    <description>Recent content in Jeff Carlin on Jeff Carlin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Studying the outer Milky Way halo with distant RR Lyrae variable stars</title>
+      <link>http://jeffcarlin.github.io/post/dist_rrl/</link>
+      <pubDate>Sat, 13 Oct 2018 12:34:07 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/post/dist_rrl/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Hi, folks! In this, the first blog post on my site, I&amp;rsquo;ll explain a bit about one of my research projects that I&amp;rsquo;m especially excited about lately. I&amp;rsquo;ll aim to keep it at a level that is understandable for &amp;ldquo;non-experts,&amp;rdquo; but inevitably there will be some astro jargon that creeps in&amp;hellip; -Jeff&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The sparsely-populated outermost regions of our Milky Way galaxy are poorly studied. In part, this is because stars of a given type become fainter the more distant they are from us &amp;ndash; think about a flashlight: if I stand a few feet away from you, it will look pretty bright (you could read a book by its light), while if I&amp;rsquo;m a block away, it will just look like a small point of light. This is due to what&amp;rsquo;s often called the &amp;ldquo;inverse square law,&amp;rdquo; which says that light from a given source diminishes in intensity proportional to the &lt;em&gt;square&lt;/em&gt; of the distance from the viewer (10 times further away means $10^2$, or 100 times, fainter). This means that the old stars in the most distant parts of the Milky Way&amp;rsquo;s &amp;ldquo;halo&amp;rdquo; are quite faint. Furthermore, it&amp;rsquo;s difficult to estimate the distances to typical stars. So, to study the distant reaches of our Galaxy&amp;rsquo;s stellar halo, we need stars that:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;are intrinsically bright (so we can still detect them even at large distances),&lt;/li&gt;
+&lt;li&gt;are fairly common in old, metal-poor populations such as the Milky Way halo,&lt;/li&gt;
+&lt;li&gt;are easy to pick out from among the other, more numerous, types of stars between us and the outer Galaxy, and&lt;/li&gt;
+&lt;li&gt;whose distances can be easily estimated.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://jeffcarlin.github.io/img/mw_halo.jpg&#34; alt=&#34;The halo of the Milky Way is the diffuse outer region surrounding the disk, where we live along with most of the gas, dust, and stars in the Galaxy. Although it contains only about 1% of the stars in our Galaxy, the halo gives us vital clues about how the Milky Way has grown and evolved. (Image from [Hubblesite](http://hubblesite.org/image/3051).)&#34; width=&#34;60%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    The halo of the Milky Way is the diffuse outer region surrounding the disk, where we live along with most of the gas, dust, and stars in the Galaxy. Although it contains only about 1% of the stars in our Galaxy, the halo gives us vital clues about how the Milky Way has grown and evolved. (Image from &lt;a href=&#34;http://hubblesite.org/image/3051&#34; target=&#34;_blank&#34;&gt;Hubblesite&lt;/a&gt;.)
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;rr-lyrae-pulsating-variable-stars&#34;&gt;RR Lyrae &amp;ndash; pulsating variable Stars&lt;/h2&gt;
+
+&lt;p&gt;For an ongoing project I&amp;rsquo;m working on, the solution we have adopted is to use RR Lyrae stars. These are a type of variable stars named after the first one to be discovered &amp;ndash; the star RR Lyrae. RR Lyrae stars are a type of star whose brightness varies because the &lt;em&gt;entire star&lt;/em&gt; is pulsating (growing larger, then shrinking, then growing larger again&amp;hellip;). As the star expands and contracts, its brightness changes in a characteristic way, which can be seen in repeated observations of the star (some examples are seen in the header image above, on the right side). (For history of RR Lyrae, including details of their discovery by &lt;a href=&#34;https://en.wikipedia.org/wiki/Williamina_Fleming&#34; target=&#34;_blank&#34;&gt;Williamina Fleming&lt;/a&gt;, see &lt;a href=&#34;https://www.aavso.org/vsots_rrlyr&#34; target=&#34;_blank&#34;&gt;this intro at the AAVSO site&lt;/a&gt;.) It turns out that the period of this pulsation (the time it takes to complete one &amp;ldquo;cycle&amp;rdquo; of expansion/contraction) is related to the intrinsic brightness of the star, so once you know the period, you can compare its average measured brightness with the derived intrinsic brightness and determine how far away the RR Lyrae star is.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://jeffcarlin.github.io/img/M3_color3.gif&#34; alt=&#34;Image of the outer regions of the globular cluster M3. This shows an animation of 4 images of the same field taken over the course of the same night. You can see that most of the stars remain the same as it blinks between the 4 images, but some stars change their brightness with time. Most of these are RR Lyrae variables, which can fairly easily be selected by observing the same field of view multiple times. (Image from [this page](https://www.astro.princeton.edu/~jhartman/M3_movies.html).)&#34; width=&#34;60%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Image of the outer regions of the globular cluster M3. This shows an animation of 4 images of the same field taken over the course of the same night. You can see that most of the stars remain the same as it blinks between the 4 images, but some stars change their brightness with time. Most of these are RR Lyrae variables, which can fairly easily be selected by observing the same field of view multiple times. (Image from &lt;a href=&#34;https://www.astro.princeton.edu/~jhartman/M3_movies.html&#34; target=&#34;_blank&#34;&gt;this page&lt;/a&gt;.)
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;You can see from the figure above that criterion #3 (&amp;ldquo;are easy to pick out from among the other, more numerous, types of stars&amp;rdquo;) is easily satisfied by revisiting the same field repeatedly and determining which stars change in brightness within a few hours. As we mentioned above, the distances to RR Lyrae stars are easily determined once you establish the period of pulsation (#4 above). RR Lyrae stars are indeed fairly bright, and only occur when stars roughly the mass of the Sun (but with much lower abundances of metals) are in the late stages of their lives. Thus they satisfy all of the criteria we laid out above for ideal tracers of the Milky Way halo.&lt;/p&gt;
+
+&lt;p&gt;Now, RR Lyrae stars are well-studied, and are used frequently to map the inner parts of the Milky Way&amp;rsquo;s halo. However, it has only been recently that it has become feasible to observe these pulsating variables in the outermost halo. This is because it requires a large enough telescope to quickly gather enough light from faint, distant stars, that also has a camera with a large enough field of view that we can map large areas of sky in a reasonable time frame. One example is the &lt;a href=&#34;https://www.darkenergysurvey.org/the-des-project/instrument/&#34; target=&#34;_blank&#34;&gt;Dark Energy Camera (DECam)&lt;/a&gt; (built for the &lt;a href=&#34;https://www.darkenergysurvey.org/&#34; target=&#34;_blank&#34;&gt;Dark Energy Survey&lt;/a&gt;) on the &lt;a href=&#34;http://www.ctio.noao.edu/noao/content/Victor-Blanco-4-m-Telescope&#34; target=&#34;_blank&#34;&gt;4-meter Blanco telescope at CTIO&lt;/a&gt;, which we are using for a survey of the outer halo of the Galaxy.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://jeffcarlin.github.io/img/rrlyrae_head2.png&#34; alt=&#34;Figures from a paper by Medina et al. (2017) showing first results from our survey. At the right, we show &amp;#34;light curves&amp;#34; (brightness vs. time within the pulsational period, or &amp;#34;phase&amp;#34;) of the most distant RR Lyrae from our survey, with template RR Lyrae curves overlaid. The lower left figure shows regions on the sky that we have observed thus far, and the upper left illustrates the distances ($d_{H}$) as a function of position in a small wedge of sky. &#34; width=&#34;80%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Figures from a paper by Medina et al. (2017) showing first results from our survey. At the right, we show &amp;ldquo;light curves&amp;rdquo; (brightness vs. time within the pulsational period, or &amp;ldquo;phase&amp;rdquo;) of the most distant RR Lyrae from our survey, with template RR Lyrae curves overlaid. The lower left figure shows regions on the sky that we have observed thus far, and the upper left illustrates the distances ($d_{H}$) as a function of position in a small wedge of sky.
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The figure above shows results from &lt;a href=&#34;http://jeffcarlin.github.io/publication/medina_distant_rrl/&#34; target=&#34;_blank&#34;&gt;our first publication&lt;/a&gt; about this project. In that paper, we presented a total of 173 RR Lyrae stars in about 120 square degrees of sky, in 40 DECam fields that were observed 20 times each. About &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; of these are in the Sextans dwarf spheroidal galaxy, which happens to be within the field of view, another 2 are in the Leo IV dwarf galaxy, and 3 more are newly-discovered variables in the Leo V dwarf galaxy (&lt;a href=&#34;http://jeffcarlin.github.io/publication/medina_leov/&#34; target=&#34;_blank&#34;&gt;see this Medina et al. 2017a paper&lt;/a&gt;). Of the remaining RR Lyrae, we found 18 that are beyond 90 kiloparsecs (abbreviated &lt;em&gt;kpc&lt;/em&gt;; 90 kpc is about 290,000 light years), including the most distant RR Lyrae yet known around the Milky Way at beyond 200 kpc (650,000 light years; we think the &amp;ldquo;edge&amp;rdquo; of our Galaxy should be around 250-300 kpc &amp;ndash; but that&amp;rsquo;s one of the things we&amp;rsquo;re hoping to find out with this study!). We have now obtained DECam observations of 3 times as many fields, and analysis is ongoing. We hope to expand the sample of RR Lyrae stars at the outer limits of the Milky Way to more than 50 (in about 1% of the sky), so that we can begin to infer global properties of the stellar halo of our Galaxy.&lt;/p&gt;
+
+&lt;p&gt;This is precursor science in anticipation of (and to develop tools for) the upcoming &lt;a href=&#34;https://www.lsst.org/&#34; target=&#34;_blank&#34;&gt;Large Synoptic Survey Telescope (LSST)&lt;/a&gt;. LSST will consist of an 8.4-meter optical telescope (currently under construction in Chile), a 3.5-degree diameter field of view, and a 3.2 &lt;em&gt;billion&lt;/em&gt; pixel (that&amp;rsquo;s &lt;em&gt;giga-pixel&lt;/em&gt;) camera. The planned survey (starting in 2023) will observe roughly half the night sky repeatedly for 10 years, ultimately imaging each patch of sky hundreds of times with each of 6 filters. This deep survey will revolutionize our understanding of time-varying astronomical phenomena (including variable stars, but also supernovae, active galactic nuclei, and many other objects). In fact, LSST will find RR Lyrae to distances more than 3 times further than we are reaching in our current DECam survey, over more than 50 times the sky area. Stay tuned!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In my next post&lt;/strong&gt; I&amp;rsquo;ll explain more about &lt;em&gt;why&lt;/em&gt; we want to find these distant Milky Way halo stars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ΛCDM predictions for the satellite population of M33</title>
+      <link>http://jeffcarlin.github.io/publication/patel_m33/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/patel_m33/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boötes III is a Disrupting Dwarf Galaxy Associated with the Styx Stellar Stream</title>
+      <link>http://jeffcarlin.github.io/publication/booiii/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/booiii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deeper Look at the New Milky Way Satellites: Sagittarius II, Reticulum II, Phoenix II, and Tucana III</title>
+      <link>http://jeffcarlin.github.io/publication/burcin_ufds/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/burcin_ufds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Asymmetrical motions of the Galactic outer disc with LAMOST K giant stars</title>
+      <link>http://jeffcarlin.github.io/publication/haifeng_asymm_motions/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/haifeng_asymm_motions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chemical Abundances of Hydrostatic and Explosive Alpha-elements in Sagittarius Stream Stars</title>
+      <link>http://jeffcarlin.github.io/publication/sgr_hex/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/sgr_hex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discovery of Distant RR Lyrae Stars in the Milky Way Using DECam</title>
+      <link>http://jeffcarlin.github.io/publication/medina_distant_rrl/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/medina_distant_rrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping the Milky Way with LAMOST - II. The stellar halo</title>
+      <link>http://jeffcarlin.github.io/publication/xuyan_lamost_halo/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/xuyan_lamost_halo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Subaru Hyper Suprime-Cam Observations of Milky Way Satellites Columba I and Triangulum II</title>
+      <link>http://jeffcarlin.github.io/publication/coli_triii/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/coli_triii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Map of the Local Velocity Substructure in the Milky Way Disk</title>
+      <link>http://jeffcarlin.github.io/publication/pearl_local_substruct/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/pearl_local_substruct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The predicted luminous satellite populations around SMC- and LMC-mass galaxies - a missing satellite problem around the LMC?</title>
+      <link>http://jeffcarlin.github.io/publication/dooley_lmc_missing_sats/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/dooley_lmc_missing_sats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serendipitous Discovery of RR Lyrae Stars in the Leo V Ultra-faint Galaxy</title>
+      <link>http://jeffcarlin.github.io/publication/medina_leov/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/medina_leov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Runaways II: Low-mass Hills Stars in SDSS Stripe 82</title>
+      <link>http://jeffcarlin.github.io/publication/yanqiong_red_runaways/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/yanqiong_red_runaways/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Results from the MADCASH Survey: A Faint Dwarf Galaxy Companion to the Low-mass Spiral Galaxy NGC 2403 at 3.2 Mpc</title>
+      <link>http://jeffcarlin.github.io/publication/n2403_dwarf/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/n2403_dwarf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing the SHARDS of Disrupted Milky Way Satellites with LAMOST</title>
+      <link>http://jeffcarlin.github.io/publication/shards/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/shards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

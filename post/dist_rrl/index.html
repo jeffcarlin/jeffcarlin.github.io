@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="Jeff Carlin">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Hi, folks! In this, the first blog post on my site, I&rsquo;ll explain a bit about one of my research projects that I&rsquo;m especially excited about lately. I&rsquo;ll aim to keep it at a level that is understandable for &ldquo;non-experts,&rdquo; but inevitably there will be some astro jargon that creeps in&hellip; -Jeff
+The sparsely-populated outermost regions of our Milky Way galaxy are poorly studied. In part, this is because stars of a given type become fainter the more distant they are from us &ndash; think about a flashlight: if I stand a few feet away from you, it will look pretty bright (you could read a book by its light), while if I&rsquo;m a block away, it will just look like a small point of light.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://jeffcarlin.github.io/post/dist_rrl/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="http://jeffcarlin.github.io/index.xml" type="application/rss+xml" title="Jeff Carlin">
+  <link rel="feed" href="http://jeffcarlin.github.io/index.xml" type="application/rss+xml" title="Jeff Carlin">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://jeffcarlin.github.io/post/dist_rrl/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jeff Carlin">
+  <meta property="og:url" content="http://jeffcarlin.github.io/post/dist_rrl/">
+  <meta property="og:title" content="Studying the outer Milky Way halo with distant RR Lyrae variable stars | Jeff Carlin">
+  <meta property="og:description" content="Hi, folks! In this, the first blog post on my site, I&rsquo;ll explain a bit about one of my research projects that I&rsquo;m especially excited about lately. I&rsquo;ll aim to keep it at a level that is understandable for &ldquo;non-experts,&rdquo; but inevitably there will be some astro jargon that creeps in&hellip; -Jeff
+The sparsely-populated outermost regions of our Milky Way galaxy are poorly studied. In part, this is because stars of a given type become fainter the more distant they are from us &ndash; think about a flashlight: if I stand a few feet away from you, it will look pretty bright (you could read a book by its light), while if I&rsquo;m a block away, it will just look like a small point of light."><meta property="og:image" content="http://jeffcarlin.github.io/img/rrlyrae_head2.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-10-13T12:34:07-07:00">
+  
+  <meta property="article:modified_time" content="2018-10-13T12:34:07-07:00">
+  
+
+  
+
+  
+
+  <title>Studying the outer Milky Way halo with distant RR Lyrae variable stars | Jeff Carlin</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Jeff Carlin</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/files/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/rrlyrae_head2.png" class="article-banner" itemprop="image">
+  
+
+  
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Studying the outer Milky Way halo with distant RR Lyrae variable stars</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jeff Carlin">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-10-13 12:34:07 -0700 MST" itemprop="datePublished">
+    <time datetime="2018-10-13 12:34:07 -0700 MST" itemprop="dateModified">
+      Oct 13, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jeff Carlin">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Studying%20the%20outer%20Milky%20Way%20halo%20with%20distant%20RR%20Lyrae%20variable%20stars&amp;url=http%3a%2f%2fjeffcarlin.github.io%2fpost%2fdist_rrl%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjeffcarlin.github.io%2fpost%2fdist_rrl%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjeffcarlin.github.io%2fpost%2fdist_rrl%2f&amp;title=Studying%20the%20outer%20Milky%20Way%20halo%20with%20distant%20RR%20Lyrae%20variable%20stars"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjeffcarlin.github.io%2fpost%2fdist_rrl%2f&amp;title=Studying%20the%20outer%20Milky%20Way%20halo%20with%20distant%20RR%20Lyrae%20variable%20stars"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Studying%20the%20outer%20Milky%20Way%20halo%20with%20distant%20RR%20Lyrae%20variable%20stars&amp;body=http%3a%2f%2fjeffcarlin.github.io%2fpost%2fdist_rrl%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><em>Hi, folks! In this, the first blog post on my site, I&rsquo;ll explain a bit about one of my research projects that I&rsquo;m especially excited about lately. I&rsquo;ll aim to keep it at a level that is understandable for &ldquo;non-experts,&rdquo; but inevitably there will be some astro jargon that creeps in&hellip; -Jeff</em></p>
+
+<p>The sparsely-populated outermost regions of our Milky Way galaxy are poorly studied. In part, this is because stars of a given type become fainter the more distant they are from us &ndash; think about a flashlight: if I stand a few feet away from you, it will look pretty bright (you could read a book by its light), while if I&rsquo;m a block away, it will just look like a small point of light. This is due to what&rsquo;s often called the &ldquo;inverse square law,&rdquo; which says that light from a given source diminishes in intensity proportional to the <em>square</em> of the distance from the viewer (10 times further away means $10^2$, or 100 times, fainter). This means that the old stars in the most distant parts of the Milky Way&rsquo;s &ldquo;halo&rdquo; are quite faint. Furthermore, it&rsquo;s difficult to estimate the distances to typical stars. So, to study the distant reaches of our Galaxy&rsquo;s stellar halo, we need stars that:</p>
+
+<ol>
+<li>are intrinsically bright (so we can still detect them even at large distances),</li>
+<li>are fairly common in old, metal-poor populations such as the Milky Way halo,</li>
+<li>are easy to pick out from among the other, more numerous, types of stars between us and the outer Galaxy, and</li>
+<li>whose distances can be easily estimated.</li>
+</ol>
+
+<figure>
+
+<img src="/img/mw_halo.jpg" alt="The halo of the Milky Way is the diffuse outer region surrounding the disk, where we live along with most of the gas, dust, and stars in the Galaxy. Although it contains only about 1% of the stars in our Galaxy, the halo gives us vital clues about how the Milky Way has grown and evolved. (Image from [Hubblesite](http://hubblesite.org/image/3051).)" width="60%" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <p>
+    The halo of the Milky Way is the diffuse outer region surrounding the disk, where we live along with most of the gas, dust, and stars in the Galaxy. Although it contains only about 1% of the stars in our Galaxy, the halo gives us vital clues about how the Milky Way has grown and evolved. (Image from <a href="http://hubblesite.org/image/3051" target="_blank">Hubblesite</a>.)
+    
+    
+    
+  </p> 
+</figcaption>
+
+</figure>
+
+<h2 id="rr-lyrae-pulsating-variable-stars">RR Lyrae &ndash; pulsating variable Stars</h2>
+
+<p>For an ongoing project I&rsquo;m working on, the solution we have adopted is to use RR Lyrae stars. These are a type of variable stars named after the first one to be discovered &ndash; the star RR Lyrae. RR Lyrae stars are a type of star whose brightness varies because the <em>entire star</em> is pulsating (growing larger, then shrinking, then growing larger again&hellip;). As the star expands and contracts, its brightness changes in a characteristic way, which can be seen in repeated observations of the star (some examples are seen in the header image above, on the right side). (For history of RR Lyrae, including details of their discovery by <a href="https://en.wikipedia.org/wiki/Williamina_Fleming" target="_blank">Williamina Fleming</a>, see <a href="https://www.aavso.org/vsots_rrlyr" target="_blank">this intro at the AAVSO site</a>.) It turns out that the period of this pulsation (the time it takes to complete one &ldquo;cycle&rdquo; of expansion/contraction) is related to the intrinsic brightness of the star, so once you know the period, you can compare its average measured brightness with the derived intrinsic brightness and determine how far away the RR Lyrae star is.</p>
+
+<figure>
+
+<img src="/img/M3_color3.gif" alt="Image of the outer regions of the globular cluster M3. This shows an animation of 4 images of the same field taken over the course of the same night. You can see that most of the stars remain the same as it blinks between the 4 images, but some stars change their brightness with time. Most of these are RR Lyrae variables, which can fairly easily be selected by observing the same field of view multiple times. (Image from [this page](https://www.astro.princeton.edu/~jhartman/M3_movies.html).)" width="60%" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <p>
+    Image of the outer regions of the globular cluster M3. This shows an animation of 4 images of the same field taken over the course of the same night. You can see that most of the stars remain the same as it blinks between the 4 images, but some stars change their brightness with time. Most of these are RR Lyrae variables, which can fairly easily be selected by observing the same field of view multiple times. (Image from <a href="https://www.astro.princeton.edu/~jhartman/M3_movies.html" target="_blank">this page</a>.)
+    
+    
+    
+  </p> 
+</figcaption>
+
+</figure>
+
+<p>You can see from the figure above that criterion #3 (&ldquo;are easy to pick out from among the other, more numerous, types of stars&rdquo;) is easily satisfied by revisiting the same field repeatedly and determining which stars change in brightness within a few hours. As we mentioned above, the distances to RR Lyrae stars are easily determined once you establish the period of pulsation (#4 above). RR Lyrae stars are indeed fairly bright, and only occur when stars roughly the mass of the Sun (but with much lower abundances of metals) are in the late stages of their lives. Thus they satisfy all of the criteria we laid out above for ideal tracers of the Milky Way halo.</p>
+
+<p>Now, RR Lyrae stars are well-studied, and are used frequently to map the inner parts of the Milky Way&rsquo;s halo. However, it has only been recently that it has become feasible to observe these pulsating variables in the outermost halo. This is because it requires a large enough telescope to quickly gather enough light from faint, distant stars, that also has a camera with a large enough field of view that we can map large areas of sky in a reasonable time frame. One example is the <a href="https://www.darkenergysurvey.org/the-des-project/instrument/" target="_blank">Dark Energy Camera (DECam)</a> (built for the <a href="https://www.darkenergysurvey.org/" target="_blank">Dark Energy Survey</a>) on the <a href="http://www.ctio.noao.edu/noao/content/Victor-Blanco-4-m-Telescope" target="_blank">4-meter Blanco telescope at CTIO</a>, which we are using for a survey of the outer halo of the Galaxy.</p>
+
+<figure>
+
+<img src="/img/rrlyrae_head2.png" alt="Figures from a paper by Medina et al. (2017) showing first results from our survey. At the right, we show &#34;light curves&#34; (brightness vs. time within the pulsational period, or &#34;phase&#34;) of the most distant RR Lyrae from our survey, with template RR Lyrae curves overlaid. The lower left figure shows regions on the sky that we have observed thus far, and the upper left illustrates the distances ($d_{H}$) as a function of position in a small wedge of sky. " width="80%" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <p>
+    Figures from a paper by Medina et al. (2017) showing first results from our survey. At the right, we show &ldquo;light curves&rdquo; (brightness vs. time within the pulsational period, or &ldquo;phase&rdquo;) of the most distant RR Lyrae from our survey, with template RR Lyrae curves overlaid. The lower left figure shows regions on the sky that we have observed thus far, and the upper left illustrates the distances ($d_{H}$) as a function of position in a small wedge of sky.
+    
+    
+    
+  </p> 
+</figcaption>
+
+</figure>
+
+<p>The figure above shows results from <a href="http://jeffcarlin.github.io/publication/medina_distant_rrl/" target="_blank">our first publication</a> about this project. In that paper, we presented a total of 173 RR Lyrae stars in about 120 square degrees of sky, in 40 DECam fields that were observed 20 times each. About <sup>1</sup>&frasl;<sub>3</sub> of these are in the Sextans dwarf spheroidal galaxy, which happens to be within the field of view, another 2 are in the Leo IV dwarf galaxy, and 3 more are newly-discovered variables in the Leo V dwarf galaxy (<a href="http://jeffcarlin.github.io/publication/medina_leov/" target="_blank">see this Medina et al. 2017a paper</a>). Of the remaining RR Lyrae, we found 18 that are beyond 90 kiloparsecs (abbreviated <em>kpc</em>; 90 kpc is about 290,000 light years), including the most distant RR Lyrae yet known around the Milky Way at beyond 200 kpc (650,000 light years; we think the &ldquo;edge&rdquo; of our Galaxy should be around 250-300 kpc &ndash; but that&rsquo;s one of the things we&rsquo;re hoping to find out with this study!). We have now obtained DECam observations of 3 times as many fields, and analysis is ongoing. We hope to expand the sample of RR Lyrae stars at the outer limits of the Milky Way to more than 50 (in about 1% of the sky), so that we can begin to infer global properties of the stellar halo of our Galaxy.</p>
+
+<p>This is precursor science in anticipation of (and to develop tools for) the upcoming <a href="https://www.lsst.org/" target="_blank">Large Synoptic Survey Telescope (LSST)</a>. LSST will consist of an 8.4-meter optical telescope (currently under construction in Chile), a 3.5-degree diameter field of view, and a 3.2 <em>billion</em> pixel (that&rsquo;s <em>giga-pixel</em>) camera. The planned survey (starting in 2023) will observe roughly half the night sky repeatedly for 10 years, ultimately imaging each patch of sky hundreds of times with each of 6 filters. This deep survey will revolutionize our understanding of time-varying astronomical phenomena (including variable stars, but also supernovae, active galactic nuclei, and many other objects). In fact, LSST will find RR Lyrae to distances more than 3 times further than we are reaching in our current DECam survey, over more than 50 times the sky area. Stay tuned!</p>
+
+<p><strong>In my next post</strong> I&rsquo;ll explain more about <em>why</em> we want to find these distant Milky Way halo stars.</p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fas fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

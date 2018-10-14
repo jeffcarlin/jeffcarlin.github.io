@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="Jeff Carlin">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="We analyze chemical abundances of stars in the Sagittarius (Sgr) tidal stream using high-resolution Gemini&#43;GRACES spectra of 42 members of the highest surface-brightness portions of both the trailing and leading arms. Targets were chosen using a 2MASS&#43;WISE color-color selection, combined with the Large Sky Area Multi-Object Fibre Spectroscopic Telescope (LAMOST) radial velocities. In this Letter, we analyze [Fe/H] and $\alpha$-elements produced by both hydrostatic (O, Mg) and explosive (Si, Ca, Ti) nucleosynthetic processes. The average [Fe/H] for our Sgr stream stars is lower than that for stars in the Sgr core, and stars in the trailing and leading arms show systematic differences in [Fe/H]. Both hydrostatic and explosive elements are depleted relative to Milky Way (MW) disk and halo stars, with a larger gap between the MW trend and Sgr stars for the hydrostatic elements. Chemical abundances of Sgr stream stars show similar patterns to those measured in the core of the Sgr dSph. We explore the ratio of hydrostatic to explosive $\alpha$-elements $\left [\alpha_{\rm h/ex}\right ]$ (which we refer to as the _HEx ratio_). Our observed HEx ratio trends for Sgr debris are deficient relative to MW stars. Via simple chemical evolution modeling, we show that these HEx ratio patterns are consistent with a Sgr IMF that lacks the most massive stars. This study provides a link between the chemical properties in the intact Sgr core and the significant portion of the Sgr system&#39;s luminosity that is estimated to currently reside in the streams.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://jeffcarlin.github.io/publication/sgr_hex/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="http://jeffcarlin.github.io/index.xml" type="application/rss+xml" title="Jeff Carlin">
+  <link rel="feed" href="http://jeffcarlin.github.io/index.xml" type="application/rss+xml" title="Jeff Carlin">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://jeffcarlin.github.io/publication/sgr_hex/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jeff Carlin">
+  <meta property="og:url" content="http://jeffcarlin.github.io/publication/sgr_hex/">
+  <meta property="og:title" content="Chemical Abundances of Hydrostatic and Explosive Alpha-elements in Sagittarius Stream Stars | Jeff Carlin">
+  <meta property="og:description" content="We analyze chemical abundances of stars in the Sagittarius (Sgr) tidal stream using high-resolution Gemini&#43;GRACES spectra of 42 members of the highest surface-brightness portions of both the trailing and leading arms. Targets were chosen using a 2MASS&#43;WISE color-color selection, combined with the Large Sky Area Multi-Object Fibre Spectroscopic Telescope (LAMOST) radial velocities. In this Letter, we analyze [Fe/H] and $\alpha$-elements produced by both hydrostatic (O, Mg) and explosive (Si, Ca, Ti) nucleosynthetic processes. The average [Fe/H] for our Sgr stream stars is lower than that for stars in the Sgr core, and stars in the trailing and leading arms show systematic differences in [Fe/H]. Both hydrostatic and explosive elements are depleted relative to Milky Way (MW) disk and halo stars, with a larger gap between the MW trend and Sgr stars for the hydrostatic elements. Chemical abundances of Sgr stream stars show similar patterns to those measured in the core of the Sgr dSph. We explore the ratio of hydrostatic to explosive $\alpha$-elements $\left [\alpha_{\rm h/ex}\right ]$ (which we refer to as the _HEx ratio_). Our observed HEx ratio trends for Sgr debris are deficient relative to MW stars. Via simple chemical evolution modeling, we show that these HEx ratio patterns are consistent with a Sgr IMF that lacks the most massive stars. This study provides a link between the chemical properties in the intact Sgr core and the significant portion of the Sgr system&#39;s luminosity that is estimated to currently reside in the streams."><meta property="og:image" content="http://jeffcarlin.github.io/img/sim1_cah_mgh_alpha_hex_plot_LMCcompare_Mg_and_O.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-05-01T00:00:00-07:00">
+  
+  <meta property="article:modified_time" content="2018-05-01T00:00:00-07:00">
+  
+
+  
+
+  
+
+  <title>Chemical Abundances of Hydrostatic and Explosive Alpha-elements in Sagittarius Stream Stars | Jeff Carlin</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Jeff Carlin</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/files/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/sim1_cah_mgh_alpha_hex_plot_LMCcompare_Mg_and_O.png" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">The “HEx ratio,” [αh/ex]: the ratio of the average of hydrostatic α-elements Mg and O to the average of explosive α-elements Si, Ca, and Ti. Left panels show this ratio as a function of [Ca/H], while the right panels depict [αh/ex] vs. [Mg/H]. Our Sgr stream targets are large black/gray stars in each panel; stars with no O measurement include only Mg in the ratio, and are shown as squares. The upper row compares to MW stars from Bensby et al. (2014) and Ishigaki et al. (2012, 2013, gray points), to LMC abundances (Van der Swaelmen et al. 2013, blue open circles), and to stars in the Fornax dSph (Letarte et al. 2010; Lemasle et al. 2014, magenta points; which include only Mg in αhyd) and three stars in the Sgr core (McWilliam et al. 2013). Sgr stream [αh/ex] abundance patterns closely follow those of the LMC and Fornax, and are well separated from MW populations. Lower panels show only Sgr stream stars, with the results of flexCE (Andrews et al. 2017) modeling of a stellar population with strong outflows, IMF power-law slope α = 2.75, and SN Ia time delay of 1.2 Gyr overlaid as blue dots; cyan points show the effect of changing the IMF slope by ±0.2.</span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Chemical Abundances of Hydrostatic and Explosive Alpha-elements in Sagittarius Stream Stars</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Carlin, Jeffrey L., Sheffield, Allyson A., Cunha, Katia, Smith, Verne V.
+      
+    </span>
+    <span class="pull-right">
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Chemical%20Abundances%20of%20Hydrostatic%20and%20Explosive%20Alpha-elements%20in%20Sagittarius%20Stream%20Stars&amp;url=http%3a%2f%2fjeffcarlin.github.io%2fpublication%2fsgr_hex%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjeffcarlin.github.io%2fpublication%2fsgr_hex%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjeffcarlin.github.io%2fpublication%2fsgr_hex%2f&amp;title=Chemical%20Abundances%20of%20Hydrostatic%20and%20Explosive%20Alpha-elements%20in%20Sagittarius%20Stream%20Stars"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjeffcarlin.github.io%2fpublication%2fsgr_hex%2f&amp;title=Chemical%20Abundances%20of%20Hydrostatic%20and%20Explosive%20Alpha-elements%20in%20Sagittarius%20Stream%20Stars"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Chemical%20Abundances%20of%20Hydrostatic%20and%20Explosive%20Alpha-elements%20in%20Sagittarius%20Stream%20Stars&amp;body=http%3a%2f%2fjeffcarlin.github.io%2fpublication%2fsgr_hex%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We analyze chemical abundances of stars in the Sagittarius (Sgr) tidal stream using high-resolution Gemini+GRACES spectra of 42 members of the highest surface-brightness portions of both the trailing and leading arms. Targets were chosen using a 2MASS+WISE color-color selection, combined with the Large Sky Area Multi-Object Fibre Spectroscopic Telescope (LAMOST) radial velocities. In this Letter, we analyze [Fe/H] and $\alpha$-elements produced by both hydrostatic (O, Mg) and explosive (Si, Ca, Ti) nucleosynthetic processes. The average [Fe/H] for our Sgr stream stars is lower than that for stars in the Sgr core, and stars in the trailing and leading arms show systematic differences in [Fe/H]. Both hydrostatic and explosive elements are depleted relative to Milky Way (MW) disk and halo stars, with a larger gap between the MW trend and Sgr stars for the hydrostatic elements. Chemical abundances of Sgr stream stars show similar patterns to those measured in the core of the Sgr dSph. We explore the ratio of hydrostatic to explosive $\alpha$-elements $\left [\alpha_{\rm h/ex}\right ]$ (which we refer to as the <em>HEx ratio</em>). Our observed HEx ratio trends for Sgr debris are deficient relative to MW stars. Via simple chemical evolution modeling, we show that these HEx ratio patterns are consistent with a Sgr IMF that lacks the most massive stars. This study provides a link between the chemical properties in the intact Sgr core and the significant portion of the Sgr system&rsquo;s luminosity that is estimated to currently reside in the streams.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="http://jeffcarlin.github.io/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">In <em>The Astrophysical Journal Letters</em></div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            May, 2018
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1805.04120" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://iopscience.iop.org/article/10.3847/2041-8213/aac3d8/meta" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+<a class="btn btn-primary btn-outline" href="https://ui.adsabs.harvard.edu/#abs/2018ApJ...859L..10C/abstract" target="_blank" rel="noopener">
+  Abstract/Article
+</a>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fas fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

@@ -11,6 +11,75 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>What do we learn by studying the outer Milky Way halo?</title>
+      <link>http://jeffcarlin.github.io/post/dist_rrl_science/</link>
+      <pubDate>Wed, 14 Nov 2018 12:34:07 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/post/dist_rrl_science/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;In &lt;a href=&#34;http://jeffcarlin.github.io/post/dist_rrl/&#34; target=&#34;_blank&#34;&gt;my previous post&lt;/a&gt; I discussed our project to find some of the most distant stars in the outskirts of our Milky Way galaxy. (The illustration above shows the fields on the sky that we have observed so far as part of our survey.) In this post, I&amp;rsquo;ll explain more about &lt;em&gt;why&lt;/em&gt; we want to find these distant Milky Way halo stars.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mass-of-the-milky-way&#34;&gt;Mass of the Milky Way&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;We don&amp;rsquo;t even know the mass of our Galaxy better than about a factor of two.&lt;/em&gt; That&amp;rsquo;s like if someone asked me how much I weigh, and I said &amp;ldquo;Oh, somewhere between 125 and 250 pounds.&amp;rdquo; (That&amp;rsquo;s about 57-113 kilograms, for those of you not used to pounds, or about 9-18 stone, if you prefer.) That&amp;rsquo;s a true statement, but not very informative. We live inside the Milky Way, so it&amp;rsquo;s hard to get an idea of the entire Galaxy from our perspective. It&amp;rsquo;s like if you were in downtown Chicago, and you and your friends went to the observation deck of your favorite skyscraper. Do you think that by looking out over the city, you could guess how big it is and how many people live there? Sure, you could each come up with a reasonable guess, but maybe at best within a factor of two (for example, ranging between about 4.5 million to 18 million, or a factor of 2 in either direction from the Chicago metro area&amp;rsquo;s population of roughly 9 million). Seems like a pretty uncertain guess, right? Well, that&amp;rsquo;s how well we know the total mass of our Milky Way galaxy.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://jeffcarlin.github.io/img/eadie_juric2018_MW_mass_profile.png&#34; alt=&#34;Various estimates of the mass of the Milky Way. A given study can only estimate the mass that is contained within the distance of the tracers used, so the plot above shows the mass within each radius in the Milky Way. The vertical axis is mass in units of $10^\{12}$ (trillions!) of _Solar masses_ (the mass of the Sun, a typical star). You can see that at $R =100$ kpc (_kiloparsecs_, where 100 kpc is a distance of about 325,000 light years), the estimates for our Galaxy&amp;#39;s mass range from less than half a trillion Solar masses to as much as 1.5 trillion. This highlights just how difficult it is to measure our Galaxy&amp;#39;s mass. (Image from [this recent paper by Eadie &amp;amp; Jurić (2018)](https://arxiv.org/abs/1810.10036); their best estimates for the mass are shown as shaded gray regions.)&#34; width=&#34;80%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Various estimates of the mass of the Milky Way. A given study can only estimate the mass that is contained within the distance of the tracers used, so the plot above shows the mass within each radius in the Milky Way. The vertical axis is mass in units of $10^{12}$ (trillions!) of &lt;em&gt;Solar masses&lt;/em&gt; (the mass of the Sun, a typical star). You can see that at $R =100$ kpc (&lt;em&gt;kiloparsecs&lt;/em&gt;, where 100 kpc is a distance of about 325,000 light years), the estimates for our Galaxy&amp;rsquo;s mass range from less than half a trillion Solar masses to as much as 1.5 trillion. This highlights just how difficult it is to measure our Galaxy&amp;rsquo;s mass. (Image from &lt;a href=&#34;https://arxiv.org/abs/1810.10036&#34; target=&#34;_blank&#34;&gt;this recent paper by Eadie &amp;amp; Jurić (2018)&lt;/a&gt;; their best estimates for the mass are shown as shaded gray regions.)
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Fine, but why does it matter whether we know our Galaxy&amp;rsquo;s mass or not? First off, &lt;em&gt;because we live inside of it, the Milky Way is the best-studied galaxy in the Universe.&lt;/em&gt; Because of this, we use it as a benchmark to understand other galaxies and the results of computer simulations of galaxy formation and evolution. To know which simulated galaxies to compare to, we need to know how much &amp;ldquo;stuff&amp;rdquo; (gas, stars, and dark matter &amp;ndash; more on that soon) our Galaxy contains.&lt;/p&gt;
+
+&lt;p&gt;At least half the mass of the Milky Way is in the form of &lt;em&gt;dark matter&lt;/em&gt;. What is dark matter? Well, we don&amp;rsquo;t know for sure, but we &lt;em&gt;do&lt;/em&gt; know that it&amp;rsquo;s there. It was first definitively shown to exist in the mid-1970s by &lt;a href=&#34;https://en.wikipedia.org/wiki/Vera_Rubin&#34; target=&#34;_blank&#34;&gt;Vera Rubin&lt;/a&gt;, who measured the speed at which stars in the outer parts of nearby galaxies are rotating. The orbit of an object is determined by the amount of mass contained inside its orbit (for example, the Earth&amp;rsquo;s orbit is mostly due to the Sun&amp;rsquo;s gravitational influence, since the Sun makes up most of the mass in the Solar system). But when Rubin compared the rotation speeds she was measuring to what was expected due to the mass we can see (gas, dust, and stars) in the galaxies she studied, she found that all of the galaxies were rotating faster than the visible matter could account for. This means that to account for the galaxies&amp;rsquo; faster rotation, there must be some other mass present that we can&amp;rsquo;t directly see &amp;ndash; this unseen mass is what we call &amp;ldquo;dark matter.&amp;rdquo; It turns out that &lt;em&gt;dark matter makes up the majority of the mass in many (or perhaps most) galaxies&lt;/em&gt;. There is a lot of other evidence for the existence of dark matter, and a lot of ongoing study to determine what it is made up of.&lt;/p&gt;
+
+&lt;p&gt;The reason dark matter is relevant to the discussion at hand is because it makes up most of our Galaxy&amp;rsquo;s mass in the outer regions. Only 1% of the Milky Way&amp;rsquo;s stars are in the halo, with most of them concentrated in the pancake-like disk of our Galaxy. Thus one of the ways to understand our Galaxy&amp;rsquo;s size, mass, and shape is to use the few stars that &lt;em&gt;are&lt;/em&gt; present to study its outer parts.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://jeffcarlin.github.io/img/mwdwarfs_map.jpg&#34; width=&#34;80%&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;remnants-of-destroyed-dwarf-galaxies&#34;&gt;Remnants of destroyed dwarf galaxies&lt;/h3&gt;
+
+&lt;p&gt;When large galaxies like the Milky Way form, there are also smaller &amp;ldquo;dwarf galaxies&amp;rdquo; that form with them, and continue to orbit around their larger host galaxy. The image above shows an illustration of the dwarf companions of the Milky Way that were known as of about 10 years ago. We have since found many more. Dwarf galaxies are of particular interest because they have few stars, with the vast majority of their mass made up by dark matter. The number and properties of dwarf galaxies that form around each larger galaxy help us to decide between models of galaxy formation, and in particular between predictions of the properties of dark matter that makes up most of the mass. However, the dwarf galaxies that we see today don&amp;rsquo;t represent &lt;em&gt;all&lt;/em&gt; of the dwarfs that the Milky Way has hosted. When these tiny galaxies approach the inner parts of their host galaxy, the stronger gravitational forces they encounter pull them apart. This is illustrated in the video shown below (from Kathryn Johnston and James Bullock), which is a computer simulation of what happens to dwarf galaxies (the colored points) as they orbit in a Milky Way-like galaxy&amp;rsquo;s dark matter halo. You can see that many of them are shredded apart, and their stars become part of an overall &amp;ldquo;halo&amp;rdquo; of stars.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+&lt;video autoplay loop &gt;
+  &lt;source src=&#34;http://jeffcarlin.github.io/img/timesequence1e2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h3 id=&#34;shape-density-profile-of-the-halo&#34;&gt;Shape, density profile of the halo&lt;/h3&gt;
+
+&lt;p&gt;In fact, it is thought that most of the stars in the Milky Way halo came from destroyed dwarf galaxies, and that the outermost portions of the halo are entirely made up of recently ingested dwarf galaxies. This means that by mapping the outer halo, we can infer something about the history of our galaxy. The number and properties of dwarf galaxies that have been swallowed can affect the shape of the halo (for example, if all the dwarf galaxies were concentrated to one side, the halo may look oblong). Also, the number of stars seen in the outer regions may tell us how many dwarfs fell in, and how large they were. In this way we can piece together how many dwarf galaxies were originally hosted by the Milky Way.&lt;/p&gt;
+
+&lt;h3 id=&#34;tracers-of-mass&#34;&gt;Tracers of mass&lt;/h3&gt;
+
+&lt;p&gt;Finally, as mentioned when we discussed dark matter, the motions of stars are determined by the amount of mass inside their orbit. So if we are able to measure the orbits of stars (or even of dwarf galaxies) in the Milky Way, we can use them as &amp;ldquo;tracers&amp;rdquo; to tell us how much mass is contained inside their location in our Galaxy. In the outermost Milky Way, there are very few stars, so in order to really pin down the total mass within, say, 600,000 light years, we need to find as many possible tracers as we can. This is our goal with the RR Lyrae stars &amp;ndash; we want to find them, then measure their motions through space, so that we can use them to determine the mass of our Galaxy. Right now, the only means we have of tracing the Galaxy&amp;rsquo;s mass in the outer parts is dwarf galaxies and star clusters, of which there are very few. &lt;em&gt;This is why we need lots of RR Lyrae stars &amp;ndash; we don&amp;rsquo;t have many tracers in the outer regions, and they&amp;rsquo;re not spread out over the sky.&lt;/em&gt; As mentioned in my previous post, we&amp;rsquo;ll eventually find a lot of these variable stars in the outer Milky Way via LSST, but that&amp;rsquo;s no reason not to look for them now! With a group of collaborators, I am doing just that &amp;ndash; the map at the top of this post shows the regions of sky we have searched thus far. It&amp;rsquo;s painstaking work, but slowly we&amp;rsquo;re building up a sample of RR Lyrae variables in the outer Galaxy with which we can probe the mass and history of the build-up of our Galaxy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Studying the outer Milky Way halo with distant RR Lyrae variable stars</title>
       <link>http://jeffcarlin.github.io/post/dist_rrl/</link>
       <pubDate>Sat, 13 Oct 2018 12:34:07 -0700</pubDate>
@@ -92,7 +161,7 @@
 
 &lt;p&gt;This is precursor science in anticipation of (and to develop tools for) the upcoming &lt;a href=&#34;https://www.lsst.org/&#34; target=&#34;_blank&#34;&gt;Large Synoptic Survey Telescope (LSST)&lt;/a&gt;. LSST will consist of an 8.4-meter optical telescope (currently under construction in Chile), a 3.5-degree diameter field of view, and a 3.2 &lt;em&gt;billion&lt;/em&gt; pixel (that&amp;rsquo;s &lt;em&gt;giga-pixel&lt;/em&gt;) camera. The planned survey (starting in 2023) will observe roughly half the night sky repeatedly for 10 years, ultimately imaging each patch of sky hundreds of times with each of 6 filters. This deep survey will revolutionize our understanding of time-varying astronomical phenomena (including variable stars, but also supernovae, active galactic nuclei, and many other objects). In fact, LSST will find RR Lyrae to distances more than 3 times further than we are reaching in our current DECam survey, over more than 50 times the sky area. Stay tuned!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;In my next post&lt;/strong&gt; I&amp;rsquo;ll explain more about &lt;em&gt;why&lt;/em&gt; we want to find these distant Milky Way halo stars.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In &lt;a href=&#34;http://jeffcarlin.github.io/post/dist_rrl_science/&#34; target=&#34;_blank&#34;&gt;my next post&lt;/a&gt;&lt;/strong&gt; I&amp;rsquo;ll explain more about &lt;em&gt;why&lt;/em&gt; we want to find these distant Milky Way halo stars.&lt;/p&gt;
 </description>
     </item>
     
@@ -210,15 +279,6 @@
       <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jeffcarlin.github.io/publication/n2403_dwarf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Characterizing the SHARDS of Disrupted Milky Way Satellites with LAMOST</title>
-      <link>http://jeffcarlin.github.io/publication/shards/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
-      
-      <guid>http://jeffcarlin.github.io/publication/shards/</guid>
       <description></description>
     </item>
     

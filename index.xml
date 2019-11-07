@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Tidal destruction in a low mass galaxy environment: the discovery of tidal tails around DDO 44</title>
+      <link>http://jeffcarlin.github.io/publication/ddo44_stream/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/ddo44_stream/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What do we learn by studying the outer Milky Way halo?</title>
       <link>http://jeffcarlin.github.io/post/dist_rrl_science/</link>
       <pubDate>Wed, 14 Nov 2018 12:34:07 -0700</pubDate>
@@ -270,15 +279,6 @@
       <pubDate>Tue, 01 Nov 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jeffcarlin.github.io/publication/yanqiong_red_runaways/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First Results from the MADCASH Survey: A Faint Dwarf Galaxy Companion to the Low-mass Spiral Galaxy NGC 2403 at 3.2 Mpc</title>
-      <link>http://jeffcarlin.github.io/publication/n2403_dwarf/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
-      
-      <guid>http://jeffcarlin.github.io/publication/n2403_dwarf/</guid>
       <description></description>
     </item>
     

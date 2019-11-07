@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="http://jeffcarlin.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tidal destruction in a low mass galaxy environment: the discovery of tidal tails around DDO 44</title>
+      <link>http://jeffcarlin.github.io/publication/ddo44_stream/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 -0700</pubDate>
+      
+      <guid>http://jeffcarlin.github.io/publication/ddo44_stream/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ΛCDM predictions for the satellite population of M33</title>
